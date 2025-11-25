@@ -1,0 +1,21 @@
+{
+  "name": "mazdah/responsive-web_v00",
+  "description": "For a course on how to build a website from a design with HTML, CSS, and JS by Coder Coder. https://coder-coder.com/responsive/",
+  "autoload": {
+    "psr-4": {
+      "Mazdah\\responsive-web_v00\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "mazal",
+      "email": "158574576+studentiyot@users.noreply.github.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^8.4"
+  }
+}
+
+

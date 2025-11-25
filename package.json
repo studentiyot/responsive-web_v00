@@ -1,0 +1,17 @@
+{
+  "name": "responsive-web_v00",
+  "version": "1.0.0",
+  "description": "For a course on how to build a website from a design with HTML, CSS, and JS by Coder Coder.",
+  "license": "MIT",
+  "author": "mazal",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0"
+  }
+}
