@@ -1,24 +1,63 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+
+<html class="no-js" lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Mythos</title>
-    <!-- Links to external files -->
-    <link rel="stylesheet" href=" styles/style.css" />
-    <link rel="icon" type="image/x-icon" href="/favicon.png?v=1" />
+
+    <!-- If JavaScript is enabled, swap to 'js' on the <html> tag for css styling.-->
+    <script>
+      document.documentElement.className =
+        document.documentElement.className.replace("no-js", "js");
+    </script>
+
+    <link rel="preload" href="./styles/style.css" as="style" />
+    <link rel="stylesheet" href="./styles/style.css" />
+
+    <meta
+      name="description"
+      content="Build a website from a design with HTML, CSS, and JS with Coder Coder."
+    />
+
+    <!-- Open Graph meta tags for presentation of link sharing. -->
+    <meta property="og:title" content="Web Design Project X" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://responsive-web_v00.test" />
+    <meta
+      property="og:description"
+      content="Build a website from a design with HTML, CSS, and JS with Coder Coder."
+    />
+    <!-- Use image dimensions at least 1200x630 pixels for high-res devices. -->
+    <meta
+      property="og:image"
+      content="http://responsive-web_v00.test/assets/brand/logo.jpeg"
+    />
+
+    <link rel="icon" href="./favicon.png?v=1" type="image/png" sizes="16x16" />
+    <!-- <link rel="icon" href="./icon.svg" type="image/svg+xml" /> -->
+    <!-- <link rel="apple-touch-icon" href="./icon.png" /> -->
+
     <script src="js/script.js" defer></script>
   </head>
+
   <body>
     <div class="wrapper">
       <h1>Lorem ipsum dolor sit amet.</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi blanditiis hic facere dignissimos, quae ratione maxime numquam nesciunt amet, quo
-        incidunt. Iste ducimus impedit laudantium nesciunt illum quibusdam nam odio nisi vero, vel placeat maiores quisquam et corrupti debitis tempore
-        voluptatem inventore eaque expedita. Corrupti voluptates hic quos ea distinctio consectetur laborum natus. Voluptatem debitis obcaecati, nesciunt ipsam
-        similique non voluptatum nostrum inventore ab sequi quae, recusandae quidem, voluptatibus quod esse odit. Suscipit voluptate nulla pariatur rem!
-        Perferendis earum, iure fugit sed enim exercitationem, beatae, voluptate aliquid delectus laboriosam eius. Blanditiis quasi quam est expedita dolorem
-        veniam ipsum at ducimus.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi blanditiis
+        hic facere dignissimos, quae ratione maxime numquam nesciunt amet, quo
+        incidunt. Iste ducimus impedit laudantium nesciunt illum quibusdam nam
+        odio nisi vero, vel placeat maiores quisquam et corrupti debitis
+        tempore<br />
+
+        voluptatem inventore eaque expedita. Corrupti voluptates hic quos ea
+        distinctio consectetur laborum natus. Voluptatem debitis obcaecati,
+        nesciunt ipsam similique non voluptatum nostrum inventore ab sequi quae,
+        recusandae quidem, voluptatibus quod esse odit. Suscipit voluptate nulla
+        pariatur rem! Perferendis earum, iure fugit sed enim exercitationem,
+        beatae, voluptate aliquid delectus laboriosam eius. Blanditiis quasi
+        quam est veniam ipsum at ducimus.
       </p>
     </div>
   </body>
